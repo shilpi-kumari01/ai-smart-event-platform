@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  @apply bg-white sticky top-0 z-50 shadow-sm;
+}
+
+.nav-link {
+  @apply text-gray-700 font-medium hover:text-indigo-600 transition;
+}
+
+/* ---------------- BUTTONS ---------------- */
+.btn-primary {
+  @apply bg-indigo-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition;
+}
+
+.btn-secondary {
+  @apply bg-green-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition;
+}
+
+/* ---------------- CARDS ---------------- */
+.card {
+  @apply bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition cursor-pointer;
+}
+
+.card-title {
+  @apply text-lg font-semibold mb-2;
+}
+
+.card-subtitle {
+  @apply text-gray-500 text-sm;
+}
+
+/* ---------------- HERO ---------------- */
+.hero {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  @apply text-white rounded-3xl p-12;
+}
+
+/* ---------------- GRADIENT CARDS ---------------- */
+.gradient-card {
+  background: linear-gradient(135deg, #ec4899, #f97316);
+  @apply text-white rounded-2xl p-6 shadow-lg;
+}
+
+/* ---------------- FORMS ---------------- */
+.input {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+.label {
+  @apply text-sm font-medium text-gray-700;
+}
+
+/* ---------------- DASHBOARD ---------------- */
+.dashboard-card {
+  @apply bg-white rounded-xl p-6 shadow-md;
+}
+
+/* ---------------- BADGES ---------------- */
+.badge {
+  @apply inline-block px-3 py-1 text-xs rounded-full bg-indigo-100 text-indigo-700 font-semibold;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+  @apply bg-white border-t mt-10 p-6 text-center text-gray-500;
+}
+
+/* ---------------- LOADER ---------------- */
+.loader {
+  @apply animate-spin rounded-full h-8 w-8 border-4 border-indigo-500 border-t-transparent;
+}

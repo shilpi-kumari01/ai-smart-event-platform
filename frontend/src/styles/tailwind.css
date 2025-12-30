@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Color Variables */
+:root {
+  --primary: #6366f1;     /* Indigo */
+  --secondary: #22c55e;   /* Green */
+  --accent: #ec4899;      /* Pink */
+  --dark: #0f172a;        /* Dark navy */
+  --light: #f8fafc;       /* Light background */
+}
